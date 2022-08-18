@@ -1,4 +1,6 @@
 import Welcome from "./../src/pages/Welcome";
+import Info_Home from "./../src/pages/info/home";
+
 import {
   BrowserRouter,
   Routes,
@@ -10,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Welcome />} />
-          <Route path="/info/home" element={<Welcome />} />
+          <Route path="/info/home" element={<Info_Home />} />
           {/* <Route path="invoices" element={<Invoices />} /> */}
       </Routes>
     </BrowserRouter>

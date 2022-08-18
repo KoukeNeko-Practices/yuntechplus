@@ -32,7 +32,7 @@ function Welcome() {
                     <img src={shownImage} className='h-3/4 z-100 flex mx-auto my-auto' />
                     <div className='w-full h-full flex absolute -z-10 bg-opacity-95 bg-black z-1' onClick={()=>setShownImage("")}></div>
                 </div>}
-            <div className=' flex-col flex animate-bounce-custom overflow-scroll'>
+            <div className=' flex-col flex animate-bounce-custom grid'>
             <Link to="/info/home"><img src="/assets/images/標準字2-03.png" className='w-96 mt-24 mx-auto' /></Link>
                 <div className='md:flex-row flex-col flex justify-center '>
                     <img src="/assets/images/吉祥物-NBK-工程.png"
